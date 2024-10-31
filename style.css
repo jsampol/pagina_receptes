@@ -1,0 +1,96 @@
+header {
+    background-color: #ffe8d6;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.logo {
+    height: 5vh;
+    margin-right: 10vh;
+}
+
+.linea_seleccio{
+    margin-top: 3vh;
+    height: 0.3vh;
+    width: auto;
+    color: black;
+    background-color: black;
+    margin-bottom: 0px;
+    background-color: #ffe8d6;
+}
+.seleccionat{
+    color: #b5ac98!important;
+}
+
+.element {
+    padding-left: 1vh;
+    padding-right: 1vh;
+    margin-top: 2vh;
+}
+.element:hover{
+    .linea_seleccio{
+        background-color: #d1c9b6;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.f_perfil {
+    margin-left: auto;
+    height: 3vh;
+    margin-right: 3vh;
+}
+.contenidor1{
+
+    display: flex;
+    background-color: blueviolet;
+
+}
+.sec_1{
+    display: flex;
+    flex-grow: 1;
+}
+.sec_2{
+    display: flex;
+    flex-grow: 2;
+}
+.recipes{
+    margin-left: 6vh;
+    margin-right: 6vh;
+}
+.banner{
+    background-color: #edede8;
+}
+.contenidor2{
+    display: flex;
+    margin-left: 15vh;
+    margin-right: 15vh;
+}
+.seccio1{
+    flex-direction: column;
+    display: flex;
+    justify-content: start;
+    flex-grow: 1;
+    h1 {
+    }
+    h2 {
+    }
+}
+.seccio2{
+    display: flex;
+    flex-grow: 2;
+}
