@@ -60,20 +60,57 @@ a {
     background-color: blueviolet;
 
 }
-.sec_1{
+.sec_1 {
     display: flex;
-    flex-grow: 1;
+    flex: 1;
+    flex-direction: column;
+    padding: 2vh;
+    margin: 5vh;
+    background-color: aqua!important;
 }
+
+.sec_1 ul {
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sec_1 li {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
 .sec_2{
     display: flex;
-    flex-grow: 2;
+    flex: 1;
+    flex-direction: column;
+    margin: 5vh;
+    padding: 2vh;
+    background-color: aqua!important;
 }
+
+.sec_2 ul {
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sec_2 li {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
 .recipes{
     margin-left: 6vh;
     margin-right: 6vh;
 }
 .banner{
     background-color: #edede8;
+    padding-bottom: 17vh;
 }
 .contenidor2{
     display: flex;
@@ -93,4 +130,112 @@ a {
 .seccio2{
     display: flex;
     flex-grow: 2;
+}
+.view_cat {
+    padding: 1vh 2vh 2vh 1vh;
+}
+#view {
+    color: gray;
+}
+.linea {
+    height: 2px;
+    width: auto;
+    background-color: black;
+    color: black;
+    border-width: 2px;
+}
+#see {
+    border-radius: 2vh;
+    padding: 1vh 1vh 1vh 1vh;
+    width: 100px;
+}
+.see2 {
+    border-radius: 2vh;
+    padding: 1vh 1vh 1vh 1vh;
+    width: 100px;
+    height: 40px;
+}
+#post1 {
+    display: block;
+    width: auto;
+    height: 50vh;
+    margin: 0 auto;
+}
+#post2 {
+    display: block;
+    width: auto;
+    height: 50vh;
+    margin: 0 auto;
+}
+.never_miss {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 22vh;
+    border-width: 20vh;
+    border-color: black;
+    border: 2vh;
+    background-color: blue;
+    border-radius: 2vh;
+}
+.never_1 {
+    display: flex;
+    margin: 6vh 4vh 4vh 4vh;
+    flex: 1;
+    background-color: green!important;
+    width: 10vh;
+    height: 10vh;
+    flex-direction: column;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        width: 100%;
+        align-items: start;
+        li {
+            display: block;
+            margin-left: 0;
+            padding: 0;
+            h3 {
+                margin: 0;
+                padding: 0;
+            }
+            p {
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+}
+
+
+
+.never_2 {
+    display: flex;
+    flex: 1;
+    margin: 6vh 4vh 4vh 4vh;
+    background-color: violet!important;
+    width: 10vh;
+    height: 10vh;
+}
+.mail_round {
+    margin-top: 2.5vh!important;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid black;
+    height: 4vh;
+    width: auto;
+    border-radius: 2vh;
+}
+#mail_input{
+    margin-top: 1vh;
+    margin-left: 1vh;
+}
+#never_button{
+    border-radius: 2vh;
+    width: 14vh;
+    height: 4.2vh;
+    margin-right: -0.2vh;
+    margin-top: -1vh;
 }
