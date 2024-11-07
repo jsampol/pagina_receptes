@@ -239,3 +239,34 @@ a {
     margin-right: -0.2vh;
     margin-top: -1vh;
 }
+.most_popular {
+    ul {
+        gap: 10%;
+        flex-wrap: wrap;
+        li {
+            width: 40%;
+            margin-bottom: 5vh;
+            img {
+                width: 80%;
+                margin: 0 auto;
+                display: block;
+                height: 40vh;
+                padding-top: 5vh;
+            }
+            h4 {
+                margin-left: 10%;
+            }
+            p {
+                margin-left: 10%;
+            }
+        }
+        .most_s1 {
+            background-color: yellow;
+            margin-left: 7vh;
+
+        }
+        .most_s2 {
+            background-color: red;
+        }
+    }
+}
