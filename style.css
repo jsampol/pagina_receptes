@@ -178,6 +178,46 @@ a {
     background-color: blue;
     border-radius: 2vh;
 }
+
+.author {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    background-color: blue;
+    margin: -0.8vh;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+
+.author_1 {
+    display: flex;
+    margin: 4vh 2vh 2vh 2vh;
+    flex: 1;
+    background-color: green!important;
+    max-width: 40%;
+    flex-direction: column;
+    img {
+        width: 25vh;
+        margin: 0 auto;
+        height: auto;
+        display: block;
+        padding: 0;
+        object-fit: cover;
+    }
+}
+
+
+
+.author_2 {
+    display: flex;
+    flex: 1;
+    margin: 4vh 2vh 2vh 2vh;
+    background-color: violet!important;
+}
+
+
 .never_1 {
     display: flex;
     margin: 6vh 4vh 4vh 4vh;
