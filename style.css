@@ -1,3 +1,23 @@
+@media (max-width: 1100px) {
+    #foto_header {
+        position: absolute !important;
+        top: 33%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .never_miss{
+        flex-direction: column!important;
+        height: auto!important;
+        width: auto!important;
+    .never_1{
+        height: auto!important;
+        width: auto!important;
+    }
+    }
+  }
+  
+
 header {
     background-color: #ffe8d6;
 }
@@ -57,7 +77,6 @@ a {
 .contenidor1{
 
     display: flex;
-    background-color: blueviolet;
 
 }
 .sec_1 {
@@ -66,7 +85,13 @@ a {
     flex-direction: column;
     padding: 2vh;
     margin: 5vh;
-    background-color: aqua!important;
+    img {
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+        height: 100%;
+        padding-top: 5vh;
+    }
 }
 
 .sec_1 ul {
@@ -88,7 +113,13 @@ a {
     flex-direction: column;
     margin: 5vh;
     padding: 2vh;
-    background-color: aqua!important;
+    img {
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+        height: 100%;
+        padding-top: 5vh;
+    }
 }
 
 .sec_2 ul {
@@ -155,18 +186,21 @@ a {
     width: 100px;
     height: 40px;
 }
+/*
 #post1 {
     display: block;
     width: auto;
-    height: 50vh;
+    max-height: 50vh;
     margin: 0 auto;
 }
 #post2 {
     display: block;
     width: auto;
-    height: 50vh;
+    max-height: 50vh;
+    height: auto;
     margin: 0 auto;
 }
+    */
 .never_miss {
     display: flex;
     flex-direction: row;
@@ -175,7 +209,7 @@ a {
     border-width: 20vh;
     border-color: black;
     border: 2vh;
-    background-color: blue;
+    background-color: #ca9a7f;
     border-radius: 2vh;
 }
 
@@ -184,7 +218,7 @@ a {
     flex-direction: row;
     width: auto;
     height: auto;
-    background-color: blue;
+    background-color: #ddbeab;
     margin: -0.8vh;
     border: 2px solid black;
     box-sizing: border-box;
@@ -195,7 +229,6 @@ a {
     display: flex;
     margin: 4vh 2vh 2vh 2vh;
     flex: 1;
-    background-color: green!important;
     max-width: 40%;
     flex-direction: column;
     img {
@@ -213,8 +246,21 @@ a {
 .author_2 {
     display: flex;
     flex: 1;
+    flex-direction: column;
     margin: 4vh 2vh 2vh 2vh;
-    background-color: violet!important;
+    
+    p {
+        line-height: 1.6;
+        &.bold {
+            font-weight: bold;
+        }
+    }
+
+    h3 {
+        font-size: 24px;
+        margin-top: -1vh;
+        margin-bottom: -1vh;
+    }
 }
 
 
@@ -222,7 +268,6 @@ a {
     display: flex;
     margin: 6vh 4vh 4vh 4vh;
     flex: 1;
-    background-color: green!important;
     width: 10vh;
     height: 10vh;
     flex-direction: column;
@@ -255,7 +300,6 @@ a {
     display: flex;
     flex: 1;
     margin: 6vh 4vh 4vh 4vh;
-    background-color: violet!important;
     width: 10vh;
     height: 10vh;
 }
@@ -263,7 +307,7 @@ a {
     margin-top: 2.5vh!important;
     display: block;
     margin: 0 auto;
-    border: 2px solid black;
+    border: 2px solid #dabca6;
     height: 4vh;
     width: auto;
     border-radius: 2vh;
@@ -271,6 +315,12 @@ a {
 #mail_input{
     margin-top: 1vh;
     margin-left: 1vh;
+    border: none;
+    outline: none;
+    background: none;
+    color: inherit;
+    font-size: inherit;
+    padding: 0;
 }
 #never_button{
     border-radius: 2vh;
@@ -278,6 +328,7 @@ a {
     height: 4.2vh;
     margin-right: -0.2vh;
     margin-top: -1vh;
+    border-color: #dabca6;
 }
 .most_popular {
     ul {
@@ -290,7 +341,7 @@ a {
                 width: 80%;
                 margin: 0 auto;
                 display: block;
-                height: 40vh;
+                height: 100%;
                 padding-top: 5vh;
             }
             h4 {
@@ -301,12 +352,45 @@ a {
             }
         }
         .most_s1 {
-            background-color: yellow;
+            background-color: #f4ebe4;
             margin-left: 7vh;
 
         }
         .most_s2 {
-            background-color: red;
+            background-color: #f4ebe4;
         }
     }
+}
+
+.logo_footer {
+    height: 5vh;
+    margin-right: 10vh;
+}
+
+.f_perfil2 {
+    height: 2.6vh;
+    margin-left: 1vh;
+    border-radius: 20%;
+}
+#dreta {
+    margin-right: 10vh;
+    margin-left: auto;
+}
+
+footer {
+    height: 20vh;
+    background-color: #ffe8d6;
+    border: 1px solid black;
+    margin-top: 0.7vh;
+    margin-left: -0.8vh;
+    margin-right: -0.8vh;
+    nav {
+        margin-top: 5vh;
+    }
+}
+#foto_header {
+    height: 25vh;
+    margin: 0 auto;
+    margin-top: 10vh;
+    margin-bottom: -10vh;
 }
